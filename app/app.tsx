@@ -83,10 +83,6 @@ function App(props: AppProps) {
     setTimeout(hideSplashScreen, 500)
   }
 
-  React.useEffect(() => {
-    setTimeout(hideSplashScreen, 500)
-  }, [])
-
   // Before we show the app, we have to wait for our state to be ready.
   // In the meantime, don't render anything. This will be the background
   // color set in native by rootView's background color.
